@@ -20,3 +20,10 @@
     border-left: none; 
     cursor: pointer;
 }
+
+#imageinfo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
