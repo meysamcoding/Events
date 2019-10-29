@@ -1,0 +1,9 @@
+.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.collapse.navbar-collapse{
+    justify-content: flex-end;
+    text-align: right;
+}
