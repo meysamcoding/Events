@@ -29,14 +29,24 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav navbar-center">
+        <div class="homebutton">
+        <button class="btn"><i class="fa fa-home"></i> Home</button>
         <li class="nav-item">
           <a class="nav-link" href="#">News</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Register</a>
         </li>
+        </div>
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Email Address" name="email">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+          </form>
+        </div>
         <li class="nav-item">
-          <a class="nav-link" href="#">Log In</a>
+          <a class="nav-link" href="#"></a>
         </li>    
         <input type="text" placeholder="Search.." name="search">
         <button type="submit"><i class="fa fa-search"></i></button>
