@@ -8,6 +8,20 @@
     text-align: right;
     color: gray;
 }
+<<<<<<< HEAD
+   
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+
+=======
 .navbar-brand {
     font-size: 50px;
     text-decoration-line: underline;
@@ -21,6 +35,7 @@
     border-left: none; 
     cursor: pointer;
 }
+<<<<<<< HEAD
 .fa.fa-home {
     color: #2196F3;
     text-decoration-color: lightgray;
@@ -47,3 +62,6 @@
 input[type="text"] {
     margin-top: auto;
 }
+=======
+>>>>>>> 4c83afa8eba96dca0b2e7c16db591e0113945b7e
+>>>>>>> ae0d7c27c99b7039b1ef6fbc4302fc25aa13c161
