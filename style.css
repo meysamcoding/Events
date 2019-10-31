@@ -6,26 +6,44 @@
 .collapse.navbar-collapse{
     justify-content: flex-end;
     text-align: right;
+    color: gray;
 }
- 
+
    
 .footer {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 p {
     font-size: 15px;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+ul {
+    list-style: none;
+}
+.ul :hover {
+    color: aqua;
+}
+
+#address{
+    margin-top: 20px;
+}
 
 
 .navbar-brand {
     font-size: 50px;
     text-decoration-line: underline;
+
+.social-media {
+    margin-top: 50px;
+    font-size: 20px; 
+
 }
-.fa.fa-search    {
+
+
+.fa.fa-search {
     float: left;
     background: #2196F3;
     color: white;
@@ -34,6 +52,7 @@ p {
     border-left: none; 
     cursor: pointer;
 }
+
  
 
 #imageinfo{
@@ -44,3 +63,31 @@ p {
 }
 
  
+
+.fa.fa-home {
+    color: #2196F3;
+    text-decoration-color: lightgray;
+}
+.btn {
+    color: gray;
+}
+.btn:hover {
+    color: lightgray;
+}
+.input {
+    padding-top: px;
+    padding-bottom: 5px;
+}
+.homebutton {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+.login-container {
+    margin-top: auto;
+}
+input[type="text"] {
+    margin-top: auto;
+}
+

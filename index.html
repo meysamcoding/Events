@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://use.fontawesome.com/85643a2813.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
 </head>
 
 <body>
@@ -31,15 +33,27 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav navbar-center">
+        <div class="homebutton">
+        <button class="btn"><i class="fa fa-home"></i> Home</button>
         <li class="nav-item">
           <a class="nav-link" href="#">News</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Register</a>
         </li>
+        </div>
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Email Address" name="email">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+          </form>
+        </div>
         <li class="nav-item">
           <a class="nav-link" href="#">Log In</a>
         </li>
+          <a class="nav-link" href="#"></a>
+        </li>    
         <input type="text" placeholder="Search.." name="search">
         <button type="submit"><i class="fa fa-search"></i></button>
       </ul>
@@ -110,6 +124,7 @@
         <h3>Hire Us</h3>
         <p>We're currently taking on projects. Would you like to discuss our free service ?</p>
         <div class="border"></div>
+
         <ul>
           <li><i class="fa fa-map-marker" aria-hidden="true"></i><i> 123 SomeName Street, Los Angeles CA 90034</li>
           <li><i class="fa fa-phone" aria-hidden="true"></i><i> 310 123 4567 </li>
@@ -125,6 +140,21 @@
           <p>Copyright HMCC 2019 all rights reserved</p>
         </div>
       </div>
+          <ul>
+            <li><i class="fa fa-map-marker" id="address" aria-hidden="true"></i><i> 123 SomeName Street, Los Angeles CA 90034</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i><i> 310 123 4567 </li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> </li><a href="mailto:Meysamnajafi67@yahoo.com">Email us</a>      
+            </ul>
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="www.linkedin.com/in/catherine-lim-01a89712"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                
+              </div>
+            <div class="footer-bottom">
+                <p>Copyright HMCC 2019 all rights reserved</p>
+            </div>
     </div>
 </body>
 
