@@ -62,6 +62,31 @@ p {
 input[type="text"] {
     margin-top: auto;
 }
+.image {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 210px;
+}
+.btn.btn-secondary.dropdown-toggle {
+    background-color: #2196F3;
+    color: white;
+    float: left;
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.jumbotron.text-center {
+    padding: 0px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
 =======
 >>>>>>> 4c83afa8eba96dca0b2e7c16db591e0113945b7e
 >>>>>>> ae0d7c27c99b7039b1ef6fbc4302fc25aa13c161
