@@ -90,4 +90,28 @@ ul {
 input[type="text"] {
     margin-top: auto;
 }
+.image {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 210px;
+}
+.btn.btn-secondary.dropdown-toggle {
+    background-color: #2196F3;
+    color: white;
+    float: left;
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.jumbotron.text-center {
+    padding: 0px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
