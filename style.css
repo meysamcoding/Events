@@ -8,24 +8,41 @@
     text-align: right;
     color: gray;
 }
-<<<<<<< HEAD
+
    
 .footer {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 p {
     font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+ul {
+    list-style: none;
+}
+.ul :hover {
+    color: aqua;
+}
+
+#address{
+    margin-top: 20px;
 }
 
 
-=======
 .navbar-brand {
     font-size: 50px;
     text-decoration-line: underline;
+
+.social-media {
+    margin-top: 50px;
+    font-size: 20px; 
+
 }
+
+
 .fa.fa-search {
     float: left;
     background: #2196F3;
@@ -35,7 +52,18 @@ p {
     border-left: none; 
     cursor: pointer;
 }
-<<<<<<< HEAD
+
+ 
+
+#imageinfo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+
 .fa.fa-home {
     color: #2196F3;
     text-decoration-color: lightgray;
@@ -86,6 +114,4 @@ input[type="text"] {
     margin-right: auto;
     margin-left: auto;
 }
-=======
->>>>>>> 4c83afa8eba96dca0b2e7c16db591e0113945b7e
->>>>>>> ae0d7c27c99b7039b1ef6fbc4302fc25aa13c161
+
