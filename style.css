@@ -8,6 +8,7 @@
     text-align: right;
     color: gray;
 }
+
    
 .footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,8 +30,11 @@ ul {
 #address{
     margin-top: 20px;
 }
-<<<<<<< HEAD
 
+
+.navbar-brand {
+    font-size: 50px;
+    text-decoration-line: underline;
 
 .social-media {
     margin-top: 50px;
@@ -39,7 +43,6 @@ ul {
 }
 
 
-=======
 .fa.fa-search {
     float: left;
     background: #2196F3;
@@ -49,7 +52,18 @@ ul {
     border-left: none; 
     cursor: pointer;
 }
-<<<<<<< HEAD
+
+ 
+
+#imageinfo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+
 .fa.fa-home {
     color: #2196F3;
     text-decoration-color: lightgray;
@@ -76,7 +90,4 @@ ul {
 input[type="text"] {
     margin-top: auto;
 }
-=======
->>>>>>> 4c83afa8eba96dca0b2e7c16db591e0113945b7e
->>>>>>> ae0d7c27c99b7039b1ef6fbc4302fc25aa13c161
->>>>>>> c174e06feb5017e15c1d7a8f84dafcd05ee51077
+
