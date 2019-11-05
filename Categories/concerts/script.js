@@ -1,8 +1,58 @@
 
 var eventShow = $("#eventDefaultShow");
+var search = $("#search");
+var btn = $("#searchBtn");
+
+btn.on("click", function(event){
+    $("#eventDefaultShow").empty();
+
+ var searchValue = search.val().toLowerCase();
+ var newSearchValue = searchValue.replace(/ /g, "" );
+
+ if(newSearchValue == "losangeles" ){
+     var lastPart = 324;
+ }
+else if( newSearchValue == "sandiego" ){
+    var lastPart = 381;
+}
+else if( newSearchValue == "boston" ){
+    var lastPart = 235;
+}
+else if( newSearchValue == "lasvegas" ){
+    var lastPart = 319;
+}
+else if( newSearchValue == "washington" ){
+    var lastPart = 409;
+}
+else if( newSearchValue == "chicago" ){
+    var lastPart = 249;
+}
+else if( newSearchValue == "sanfrancisco" ){
+    var lastPart = 382;
+}
+else if( newSearchValue == "detroit" ){
+    var lastPart = 266;
+}
+else if( newSearchValue == "baltimore" ){
+    var lastPart = 224;
+}
+else if( newSearchValue == "denver" ){
+    var lastPart = 264;
+}
+else if( newSearchValue == "miami" ){
+    var lastPart = 334;
+}
+else{
+   var error =  $("<div>" + "SORRY we dont have that city in our system :(" + "</div>");
+   error.css("fontSize", "30px");
+   error.css("color", "red");
+   eventShow.append(error);
+}
 
 
-var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?apikey=OqQU1zdAGtlzlsTSorTTIsb4OTpyhCRU";
+
+
+var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?classificationName=concert&dmaId=" + lastPart + "&apikey=OqQU1zdAGtlzlsTSorTTIsb4OTpyhCRU";
 
 
 var eventName = $("<h1>");
@@ -42,5 +92,6 @@ $.ajax({
      }
 
 
-
+     
+});
 });

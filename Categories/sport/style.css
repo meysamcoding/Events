@@ -1,0 +1,82 @@
+.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.collapse.navbar-collapse{
+    justify-content: flex-end;
+    text-align: right;
+    color: gray;
+}
+   
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+.ul :hover {
+    color: aqua;
+}
+
+#address{
+    margin-top: 20px;
+}
+<<<<<<< HEAD
+
+
+.social-media {
+    margin-top: 50px;
+    font-size: 20px; 
+
+}
+
+
+=======
+.fa.fa-search {
+    float: left;
+    background: #2196F3;
+    color: white;
+    font-size: 30px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+}
+<<<<<<< HEAD
+.fa.fa-home {
+    color: #2196F3;
+    text-decoration-color: lightgray;
+}
+.btn {
+    color: gray;
+}
+.btn:hover {
+    color: lightgray;
+}
+.input {
+    padding-top: px;
+    padding-bottom: 5px;
+}
+.homebutton {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+.login-container {
+    margin-top: auto;
+}
+input[type="text"] {
+    margin-top: auto;
+}
+=======
+>>>>>>> 4c83afa8eba96dca0b2e7c16db591e0113945b7e
+>>>>>>> ae0d7c27c99b7039b1ef6fbc4302fc25aa13c161
+>>>>>>> c174e06feb5017e15c1d7a8f84dafcd05ee51077
