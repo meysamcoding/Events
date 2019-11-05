@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 var eventShow = $("#eventDefaultShow");
 
@@ -45,5 +45,3 @@ $.ajax({
 
 
 });
-=======
->>>>>>> ed44f5848f85c15363ef5e31410a051ca3688d73
