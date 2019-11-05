@@ -1,8 +1,10 @@
 
+
 var eventShow = $("#eventDefaultShow");
 
 
-var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport&dmaId=" + + "324&apikey=OqQU1zdAGtlzlsTSorTTIsb4OTpyhCRU";
+var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?apikey=OqQU1zdAGtlzlsTSorTTIsb4OTpyhCRU";
+
 
 var eventName = $("<h1>");
 eventName.text("Upcoming Events");
