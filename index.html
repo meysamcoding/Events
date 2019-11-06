@@ -21,10 +21,9 @@
 
 <body>
 
-
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>HMCC</h1>
-  </div>
+<div class="jumbotron jumbotron-fluid" style="margin-bottom:0">
+    <div class="logo">
+    </div>
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#"></a>
@@ -44,7 +43,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav navbar-center">
         <div class="homebutton">
-        <button class="btn"><i class="fa fa-home"></i> Home</button>
+        <button onClick = "" class="btn"><i class="fa fa-home"><a href="index.html"></a></i> Home</button>
         <li class="nav-item">
           <a class="nav-link" href="#">News</a>
         </li>
@@ -64,8 +63,6 @@
         </li>
           <a class="nav-link" href="#"></a>
         </li>    
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
       </ul>
     </div>
   </nav>
@@ -73,18 +70,25 @@
   <div class="container" style="margin-top:30px">
     <div class="row">
       <div class="col-sm-4">
-        <p>list Category </p>
-
+        <h2>About Me</h2>
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <h3>Event Categories</h3>
+        
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link " href="Categories/Music/Music.html">Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Categories/sport/sport.html">Sports</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="Categories/concerts/concerts.html">Concerts</a>
+            </li>
+        </ul>
         <hr class="d-sm-none">
       </div>
-      <div class="col-sm-8">
-        <img src="events.jpg" alt="Events" id="imageinfo">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
+      <div class="col-sm-8  " id="eventDefaultShow">
 
       </div>
     </div>
@@ -92,38 +96,11 @@
   <div class="container" style="margin-top:30px">
     <div class="row">
       <div class="col-sm-4">
-        <p>list Category </p>
 
         <hr class="d-sm-none">
       </div>
       <div class="col-sm-8">
-        <img src="events.jpg" alt="Events" id="imageinfo">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-
-      </div>
-    </div>
-  </div>
-  <div class="container" style="margin-top:30px">
-    <div class="row">
-      <div class="col-sm-4">
-        <p>list Category </p>
-
-        <hr class="d-sm-none">
-      </div>
-      <div class="col-sm-8">
-        <img src="events.jpg" alt="Events" id="imageinfo">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-
+        
       </div>
     </div>
   </div>
@@ -136,21 +113,6 @@
         <div class="border"></div>
 
         <ul>
-          <li><i class="fa fa-map-marker" aria-hidden="true"></i><i> 123 SomeName Street, Los Angeles CA 90034</li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i><i> 310 123 4567 </li>
-          <li><i class="fa fa-envelope" aria-hidden="true"></i> Meysamnajafi67@yahoo.com</li>
-        </ul>
-        <div class="social-media">
-          <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </div>
-        <div class="fotter-bottom">
-          <p>Copyright HMCC 2019 all rights reserved</p>
-        </div>
-      </div>
-          <ul>
             <li><i class="fa fa-map-marker" id="address" aria-hidden="true"></i><i> 123 SomeName Street, Los Angeles CA 90034</li>
             <li><i class="fa fa-phone" aria-hidden="true"></i><i> 310 123 4567 </li>
             <li><i class="fa fa-envelope" aria-hidden="true"></i> </li><a href="mailto:Meysamnajafi67@yahoo.com">Email us</a>      
@@ -166,6 +128,8 @@
                 <p>Copyright HMCC 2019 all rights reserved</p>
             </div>
     </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
