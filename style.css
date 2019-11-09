@@ -1,3 +1,15 @@
+.logo {
+    text-indent: -999999px;
+    background-image: url("logo2.png");
+    background-repeat: no-repeat;
+    background-color: blue;
+    height: 175px;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+
 .navbar.navbar-expand-sm.bg-dark.navbar-dark {
     display: inline-block;
     text-align: center;
@@ -40,7 +52,6 @@ ul {
 .social-media {
     margin-top: 50px;
     font-size: 20px; 
-
 }
 
 
