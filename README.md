@@ -1,5 +1,5 @@
 # HMCC
-![](logo2.png)
+![](Capture.PNG)
 
 collaborator: Meysam Najafi, Hakob Muradinan, Chris , Cathrine
 <br>
